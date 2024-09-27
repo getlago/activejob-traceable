@@ -3,6 +3,13 @@
 Patches ActiveJob to add attribute `tracing_info`, which is added as log's tag.
 The purpose of this patch is to be able to trace which workers are called as a result of user's HTTP request.
 
+## Current Releases
+
+| Project            | Release Badge                                                                                       |
+|--------------------|-----------------------------------------------------------------------------------------------------|
+| **Lago**           | [![Lago Release](https://img.shields.io/github/v/release/getlago/lago)](https://github.com/getlago/lago/releases) |
+| **ActiveJob::Traceable**     | [![ActiveJob::Traceable Release](https://img.shields.io/github/v/release/getlago/activejob-traceable)](https://github.com/getlago/activejob-traceable/releases) |
+
 ## Installation
 
 Add this line to your application's Gemfile:
